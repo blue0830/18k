@@ -1,0 +1,87 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class SelectionPanel : MonoBehaviour {
+    public GameObject ReturnBtn;
+    public GameObject ModeBtn;
+
+    public UILabel lotteryNameLabel;
+    public UILabel lotteryModeLabel;
+    public UISprite ModeTriangle;
+
+    public UILabel qishuLabel;
+    public UILabel timeLabel;
+
+    public UILabel awardLabel;
+    public UILabel proportionLabel; //返点
+    public UIInput mutipleLabel; //倍数
+
+
+    public UIToggle YuanToggle;
+    public UIToggle JiaoToggle;
+    public UIToggle FenToggle;
+
+    public UISlider slider;
+    public GameObject arrowLeftBtn;
+    public GameObject arrowRightBtn;
+
+    public GameObject ClearBtn;
+    public GameObject ConfirmBtn;
+    public UILabel ConfirmLabel;
+    public UILabel YuELabel;
+    //说明组件
+    public GameObject helpBtn;
+    public GameObject expBtn;
+    public GameObject awardBtn;
+    public UIGrid helpGrid;
+    public Helpcontent helpcontent;
+
+    //最近记录
+    public UILabel recordQishu;
+    public UILabel recordresult;
+
+    //check boxes
+    public GameObject CheckBoxRoot;
+    public UIToggle[] CheckBoxes;
+
+    public string jineString = "";
+    public int zsSave= 0;
+
+    public Scrollview_V scrollview_v;
+    public ModePanel modePanel;
+    public GameObject textroot;
+    public UIInput textInput;
+    public GameObject MoreRecordBtn;
+    public GameObject functionBtn;
+    public GameObject botupContent;
+    public GameObject closebotupBtn;
+    public GameObject goConfirmBtn;
+    public GameObject beishuAdd;
+    public GameObject beishuSub;
+	public GameObject backObj;
+
+	// Use this for initialization
+	void Start () {
+        UIEventListener.Get(functionBtn).onClick= functionClick;
+        UIEventListener.Get(closebotupBtn).onClick = closebotupClick;
+		UIEventListener.Get(backObj).onClick = closebotupClick;
+    }
+	
+	// Update is called once per frame
+	void Update () {
+	}
+
+    void functionClick(GameObject go)
+    {
+        AudioController.Instance.SoundPlay("active_item");
+        botupContent.SetActive(true);
+        functionBtn.SetActive(false);
+    }
+
+    void closebotupClick(GameObject go)
+    {
+        AudioController.Instance.SoundPlay("active_item");
+        botupContent.SetActive(false);
+        functionBtn.SetActive(true);
+    }
+}

@@ -1,0 +1,1311 @@
+10b9n3x.xml|131|<component size="144,184">
+  <displayList>
+    <image id="n0_10b9n" name="n0" src="sazt1q" xy="0,0"/>
+  </displayList>
+</component>b9xmn5k.xml|28|<component size="1136,640"/>bnnfn54.xml|747|<component size="548,312">
+  <displayList>
+    <image id="n0_bnnf" name="n0" src="bnnfn55" xy="0,0" group="n5_bnnf"/>
+    <component id="n1_bnnf" name="okBtn" src="bnnfn59" xy="59,207" group="n5_bnnf"/>
+    <component id="n2_bnnf" name="canelBtn" src="bnnfn58" xy="289,207" group="n5_bnnf"/>
+    <text id="n3_bnnf" name="alertText" xy="42,84" size="462,111" group="n5_bnnf" fontSize="30" autoSize="none" text="123e234rwefasfasfw sdfawe fasdf asewfasdf wafeaf safwefasfwfawfasdfwefw"/>
+    <image id="n4_bnnf" name="n4" src="bnnfn5a" xy="218,15" group="n5_bnnf"/>
+    <group id="n5_bnnf" name="n5" xy="0,0" size="548,312" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>bnnfn58.xml|434|<component size="207,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_bnnf" name="n2" src="bnnfn57" xy="0,0"/>
+    <text id="n3_bnnf" name="n3" xy="34,13" size="131,51" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="取消"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>bnnfn59.xml|434|<component size="207,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_bnnf" name="n2" src="bnnfn56" xy="0,0"/>
+    <text id="n3_bnnf" name="n3" xy="36,12" size="131,51" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="确定"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>bnnfn5b.xml|1174|<component size="548,312">
+  <displayList>
+    <image id="n3_bnnf" name="n3" xy="1101,-227"/>
+    <image id="n2_bnnf" name="n2" src="bnnfn55" xy="0,0" group="n9_bnnf"/>
+    <component id="n0_bnnf" name="musicBtn" src="bnnfn5f" xy="122,105" group="n9_bnnf"/>
+    <component id="n1_bnnf" name="audioBtn" src="bnnfn5f" xy="371,105" group="n9_bnnf">
+      <Button checked="true"/>
+    </component>
+    <image id="n4_bnnf" name="n4" src="bnnfn5c" xy="218,14" group="n9_bnnf"/>
+    <text id="n5_bnnf" name="n5" xy="39,112" size="72,39" group="n9_bnnf" fontSize="30" color="#996600" align="center" vAlign="middle" autoSize="none" text="音乐"/>
+    <text id="n6_bnnf" name="n6" xy="288,113" size="72,39" group="n9_bnnf" fontSize="30" color="#996600" align="center" vAlign="middle" autoSize="none" text="音效"/>
+    <component id="n7_bnnf" name="okBtn" src="bnnfn59" xy="172,202" group="n9_bnnf"/>
+    <component id="n8_bnnf" name="canelBtn" src="bnnfn58" xy="168,320" group="n9_bnnf" visible="false"/>
+    <group id="n9_bnnf" name="n9" xy="0,0" size="548,398" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>bnnfn5f.xml|694|<component size="137,52" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_bnnf" name="n2" src="bnnfn5d" xy="0,8" color="#00ff00">
+      <gearColor controller="button" pages="1" values="#00ff00" default="#ffffff" tween="true"/>
+    </image>
+    <image id="n1" name="n1" src="bnnfn5e" xy="85,0" color="#00ff00">
+      <gearXY controller="button" pages="0" values="0,0" default="85,0" tween="true"/>
+      <gearColor controller="button" pages="1" values="#00ff00" default="#ffffff" tween="true"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>dfnf3v.xml|399|<component size="300,30">
+  <displayList>
+    <text id="n0" name="name" xy="12,5" size="117,20" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="用户的名称"/>
+    <image id="n1" name="n1" src="sazt7" xy="135,2" size="31,27"/>
+    <text id="n2" name="n2" xy="174,6" size="117,20" fontSize="14" color="#ffff00" vAlign="middle" autoSize="none" text="66666"/>
+  </displayList>
+</component>dfnf3w.xml|398|<component size="200,30">
+  <displayList>
+    <text id="n0" name="name" xy="10,6" size="51,20" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="庄可下"/>
+    <image id="n1" name="n1" src="sazt7" xy="66,4" size="27,23"/>
+    <text id="n2" name="number" xy="103,6" size="88,20" fontSize="14" color="#ffff00" vAlign="middle" autoSize="none" text="66666"/>
+  </displayList>
+</component>hz3rn4v.xml|565|<component size="282,99" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn3y" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn3y" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn4w.xml|566|<component size="317,195" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn3z" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn3z" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn4y.xml|566|<component size="298,114" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn40" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn40" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn4z.xml|566|<component size="276,152" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn41" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn41" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn50.xml|566|<component size="275,114" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn42" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn42" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn51.xml|372|<component size="315,101" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2" name="n2" src="vbmsn43" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn52.xml|566|<component size="346,193" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn44" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn44" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hz3rn53.xml|566|<component size="326,113" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="vbmsn45" xy="0,0" alpha="0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="vbmsn45" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>jv2dn6p.fnt|767|info creator=UIBuilder resizable=true colored=true
+char id=48 img=jv2dn61 xoffset=0 yoffset=0 xadvance=20
+char id=49 img=jv2dn62 xoffset=0 yoffset=0 xadvance=20
+char id=58 img=jv2dn63 xoffset=0 yoffset=0 xadvance=15
+char id=44 img=jv2dn64 xoffset=0 yoffset=0 xadvance=15
+char id=50 img=jv2dn65 xoffset=0 yoffset=0 xadvance=20
+char id=51 img=jv2dn66 xoffset=0 yoffset=0 xadvance=20
+char id=52 img=jv2dn67 xoffset=0 yoffset=0 xadvance=20
+char id=53 img=jv2dn68 xoffset=0 yoffset=0 xadvance=20
+char id=54 img=jv2dn69 xoffset=0 yoffset=0 xadvance=20
+char id=55 img=jv2dn6a xoffset=0 yoffset=0 xadvance=20
+char id=56 img=jv2dn6b xoffset=0 yoffset=0 xadvance=20
+char id=57 img=jv2dn6c xoffset=0 yoffset=0 xadvance=20
+char id=46 img=eaj2n6w xoffset=-5 yoffset=0 xadvance=15
+jv2dn6q.fnt|753|info creator=UIBuilder resizable=true
+char id=48 img=jv2dn6d xoffset=0 yoffset=0 xadvance=30
+char id=49 img=jv2dn6e xoffset=0 yoffset=0 xadvance=30
+char id=58 img=jv2dn6f xoffset=0 yoffset=0 xadvance=18
+char id=44 img=jv2dn6g xoffset=0 yoffset=0 xadvance=30
+char id=50 img=jv2dn6h xoffset=0 yoffset=0 xadvance=30
+char id=51 img=jv2dn6i xoffset=0 yoffset=0 xadvance=30
+char id=52 img=jv2dn6j xoffset=0 yoffset=0 xadvance=30
+char id=53 img=jv2dn6k xoffset=0 yoffset=0 xadvance=30
+char id=54 img=jv2dn6l xoffset=0 yoffset=0 xadvance=30
+char id=55 img=jv2dn6m xoffset=0 yoffset=0 xadvance=30
+char id=56 img=jv2dn6n xoffset=0 yoffset=0 xadvance=30
+char id=57 img=jv2dn6o xoffset=0 yoffset=0 xadvance=30
+char id=46 img=eaj2n6x xoffset=0 yoffset=0 xadvance=18
+n144n4s.xml|613|<component size="30,90">
+  <displayList>
+    <graph id="n30_n144" name="n30" xy="0,0" size="29,88" type="rect" lineColor="#ff4c305b" fillColor="#ff4c305b"/>
+    <graph id="n36_n6wd" name="n36" xy="0,30" size="30,30" type="rect" lineColor="#ff4c305b" fillColor="#ff19101e"/>
+    <graph id="n38_n6wd" name="n38" xy="0,58" size="30,30" type="rect" lineColor="#ff4c305b" fillColor="#ff19101e"/>
+    <graph id="n41_n6wd" name="n41" xy="0,1" size="30,30" type="rect" lineColor="#ff4c305b" fillColor="#ff19101e"/>
+    <image id="n42_n6wd" name="selected" src="sazt6" xy="2,3" size="24,24"/>
+  </displayList>
+</component>n144n4u.xml|1141|<component size="548,312">
+  <controller name="c1" pages="0," selected="0"/>
+  <displayList>
+    <image id="n1_n144" name="n1" src="n144n4t" xy="0,0" group="n8_n144" alpha="0.77">
+      <gearLook controller="c1" pages="0" values="0.77,0,0"/>
+    </image>
+    <component id="n3_n144" name="closeBtn" src="sazt3f" xy="485,-10" group="n8_n144"/>
+    <text id="n4_n144" name="mfen" xy="134,187" size="173,33" group="n8_n144" fontSize="25" color="#ffffff" align="center" autoSize="none" text="5999"/>
+    <text id="n5_n144" name="zfen" xy="133,254" size="173,33" group="n8_n144" fontSize="25" color="#ffffff" align="center" autoSize="none" text="5999"/>
+    <text id="n6_n144" name="mfan" xy="353,187" size="173,33" group="n8_n144" fontSize="25" color="#ffffff" align="center" autoSize="none" text="5999"/>
+    <text id="n7_n144" name="zfan" xy="353,252" size="173,33" group="n8_n144" fontSize="25" color="#ffffff" align="center" autoSize="none" text="5999"/>
+    <group id="n8_n144" name="n8" xy="0,-10" size="558,322" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>owo8n4q.xml|360|<component size="134,44" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="owo8n4p" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>package.xml|15648|<packageDescription id="nyvoaldg" name="baijiale">
+  <resources>
+    <component id="b9xmn5k" name="空白组件" path="/uibtn/" size="1136,640"/>
+    <component id="bnnfn58" name="canelBtn" path="/uibtn/" size="207,78"/>
+    <component id="bnnfn59" name="okBtn" path="/uibtn/" size="207,78"/>
+    <component id="bnnfn5f" name="SetBtn" path="/uibtn/" size="137,52"/>
+    <component id="dfnf3v" name="zhuangjiaList" path="/ui/" size="300,30"/>
+    <component id="dfnf3w" name="xiafenList" path="/ui/" size="200,30"/>
+    <component id="hz3rn4v" name="Button1" path="/uibtn/" size="282,99"/>
+    <component id="hz3rn4w" name="Button2" path="/uibtn/" size="317,195"/>
+    <component id="hz3rn4y" name="Button3" path="/uibtn/" size="298,114"/>
+    <component id="hz3rn4z" name="Button4" path="/uibtn/" size="276,152"/>
+    <component id="hz3rn50" name="Button5" path="/uibtn/" size="275,114"/>
+    <component id="hz3rn51" name="Button6" path="/uibtn/" size="315,101"/>
+    <component id="hz3rn52" name="Button7" path="/uibtn/" size="346,193"/>
+    <component id="hz3rn53" name="Button8" path="/uibtn/" size="326,113"/>
+    <component id="n144n4s" name="ludanItem" path="/ui/" size="30,90"/>
+    <component id="owo8n4q" name="申请下庄" path="/uibtn/" size="134,44"/>
+    <component id="sazt3f" name="close" path="/uibtn/" size="73,76"/>
+    <component id="sazt3g" name="申请上庄" path="/uibtn/" size="134,44"/>
+    <component id="sazt3h" name="历史路单" path="/uibtn/" size="52,240"/>
+    <component id="sazt3i" name="设置" path="/uibtn/" size="62,94"/>
+    <component id="sazt3j" name="退出" path="/uibtn/" size="62,61"/>
+    <component id="sazt3k" name="下注1" path="/uibtn/" size="83,85"/>
+    <component id="sazt3l" name="下注10" path="/uibtn/" size="84,85"/>
+    <component id="sazt3m" name="下注100" path="/uibtn/" size="89,85"/>
+    <component id="sazt3n" name="下注1000" path="/uibtn/" size="83,86"/>
+    <component id="sazt3o" name="下注10000" path="/uibtn/" size="87,86"/>
+    <component id="sazt3p" name="下注5000" path="/uibtn/" size="87,86"/>
+    <component id="sazt3u" name="Head" path="/ui/" size="1110,110"/>
+    <image id="bnnfn55" name="bg1" path="/image/" size="548,312"/>
+    <image id="bnnfn56" name="btn1" path="/image/" size="207,78"/>
+    <image id="bnnfn57" name="btn2" path="/image/" size="207,78"/>
+    <image id="bnnfn5a" name="txt1" path="/image/" size="112,36"/>
+    <image id="bnnfn5c" name="txt2" path="/image/" size="112,36"/>
+    <image id="bnnfn5d" name="btn3" path="/image/" size="137,36"/>
+    <image id="bnnfn5e" name="btn4" path="/image/" size="52,52"/>
+    <image id="eaj2n6v" name="a_12" path="/Fontimage/" size="35,42"/>
+    <image id="eaj2n6w" name="b_12" path="/Fontimage/" size="20,29"/>
+    <image id="eaj2n6x" name="c_12" path="/Fontimage/" size="53,56"/>
+    <image id="gn71n6y" name="nsf" path="/image/" size="610,47"/>
+    <image id="jv2dn5p" name="a_0" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5q" name="a_1" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5r" name="a_10" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5s" name="a_11" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5t" name="a_2" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5u" name="a_3" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5v" name="a_4" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5w" name="a_5" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5x" name="a_6" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5y" name="a_7" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn5z" name="a_8" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn60" name="a_9" path="/Fontimage/" size="35,42"/>
+    <image id="jv2dn61" name="b_0" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn62" name="b_1" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn63" name="b_10" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn64" name="b_11" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn65" name="b_2" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn66" name="b_3" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn67" name="b_4" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn68" name="b_5" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn69" name="b_6" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn6a" name="b_7" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn6b" name="b_8" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn6c" name="b_9" path="/Fontimage/" size="20,29"/>
+    <image id="jv2dn6d" name="c_0" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6e" name="c_1" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6f" name="c_10" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6g" name="c_11" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6h" name="c_2" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6i" name="c_3" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6j" name="c_4" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6k" name="c_5" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6l" name="c_6" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6m" name="c_7" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6n" name="c_8" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6o" name="c_9" path="/Fontimage/" size="53,56"/>
+    <image id="jv2dn6u" name="gameb" path="/ui/" size="207,51"/>
+    <image id="n144n4r" name="history_col" path="/image/" size="38,35"/>
+    <image id="n144n4t" name="bg2" path="/image/" size="548,312"/>
+    <image id="n6wdn5i" name="p" path="/image/" size="49,50"/>
+    <image id="owo8n4p" name="xz" path="/image/" size="134,44"/>
+    <image id="ppcyn5h" name="selected" path="/image/" size="111,113"/>
+    <image id="sazt0" name="overplancion" path="/image/" size="208,278" scale="9grid" scale9grid="52,99,104,137"/>
+    <image id="sazt1" name="ludanbtn" path="/image/" size="52,240"/>
+    <image id="sazt10" name="CardNumRed4" path="/poke/" size="40,38"/>
+    <image id="sazt11" name="CardNumRed3" path="/poke/" size="40,38"/>
+    <image id="sazt12" name="CardNumRed2" path="/poke/" size="40,38"/>
+    <image id="sazt13" name="CardNumRed1" path="/poke/" size="40,38"/>
+    <image id="sazt14" name="CardNumBlack13" path="/poke/" size="40,38"/>
+    <image id="sazt15" name="CardNumBlack12" path="/poke/" size="40,38"/>
+    <image id="sazt16" name="CardNumBlack11" path="/poke/" size="40,38"/>
+    <image id="sazt17" name="CardNumBlack10" path="/poke/" size="40,38"/>
+    <image id="sazt18" name="CardNumBlack9" path="/poke/" size="40,38"/>
+    <image id="sazt19" name="CardNumBlack8" path="/poke/" size="40,38"/>
+    <image id="sazt1a" name="CardNumBlack7" path="/poke/" size="40,38"/>
+    <image id="sazt1b" name="CardNumBlack6" path="/poke/" size="40,38"/>
+    <image id="sazt1c" name="CardNumBlack5" path="/poke/" size="40,38"/>
+    <image id="sazt1d" name="CardNumBlack4" path="/poke/" size="40,38"/>
+    <image id="sazt1e" name="CardNumBlack3" path="/poke/" size="40,38"/>
+    <image id="sazt1f" name="CardNumBlack2" path="/poke/" size="40,38"/>
+    <image id="sazt1g" name="CardNumBlack1" path="/poke/" size="40,38"/>
+    <image id="sazt1j" name="CardIconSpade" path="/poke/" size="30,28"/>
+    <image id="sazt1l" name="CardIconHeart" path="/poke/" size="30,28"/>
+    <image id="sazt1m" name="CardIconDiamond" path="/poke/" size="30,28"/>
+    <image id="sazt1n" name="CardIconClub" path="/poke/" size="30,28"/>
+    <image id="sazt1p" name="CardFront" path="/poke/" size="144,184"/>
+    <image id="sazt1q" name="CardBack" path="/poke/" size="144,184"/>
+    <image id="sazt2" name="lsolu" path="/image/" size="731,212"/>
+    <image id="sazt3" name="kaipaitimebg" path="/image/" size="126,210"/>
+    <image id="sazt5" name="headicon" path="/image/" size="74,75"/>
+    <image id="sazt6" name="gou" path="/image/" size="38,35"/>
+    <image id="sazt7" name="glodicon" path="/image/" size="60,54"/>
+    <image id="saztg" name="gameb" path="/image/" size="1136,640"/>
+    <image id="sazti" name="btnquit" path="/image/" size="62,61"/>
+    <image id="saztj" name="z" path="/image/" size="49,50"/>
+    <image id="saztk" name="xx" path="/image/" size="73,76"/>
+    <image id="saztl" name="x" path="/image/" size="49,50"/>
+    <image id="saztn" name="shenqingzbtn" path="/image/" size="134,44"/>
+    <image id="sazto" name="setbtns" path="/image/" size="62,94"/>
+    <image id="saztr" name="CardNumRed13" path="/poke/" size="40,38"/>
+    <image id="sazts" name="CardNumRed12" path="/poke/" size="40,38"/>
+    <image id="saztt" name="CardNumRed11" path="/poke/" size="40,38"/>
+    <image id="saztu" name="CardNumRed10" path="/poke/" size="40,38"/>
+    <image id="saztv" name="CardNumRed9" path="/poke/" size="40,38"/>
+    <image id="saztw" name="CardNumRed8" path="/poke/" size="40,38"/>
+    <image id="saztx" name="CardNumRed7" path="/poke/" size="40,38"/>
+    <image id="sazty" name="CardNumRed6" path="/poke/" size="40,38"/>
+    <image id="saztz" name="CardNumRed5" path="/poke/" size="40,38"/>
+    <image id="vbmsn3y" name="bbtn_1" path="/image/" size="282,99"/>
+    <image id="vbmsn3z" name="bbtn_2" path="/image/" size="317,195"/>
+    <image id="vbmsn40" name="bbtn_3" path="/image/" size="298,114"/>
+    <image id="vbmsn41" name="bbtn_4" path="/image/" size="276,152"/>
+    <image id="vbmsn42" name="bbtn_5" path="/image/" size="275,114"/>
+    <image id="vbmsn43" name="bbtn_6" path="/image/" size="315,101"/>
+    <image id="vbmsn44" name="bbtn_7" path="/image/" size="346,193"/>
+    <image id="vbmsn45" name="bbtn_8" path="/image/" size="326,113"/>
+    <component id="10b9n3x" name="pokeBack" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="bnnfn54" name="Alert" path="/ui/" size="548,312" exported="true"/>
+    <component id="bnnfn5b" name="SetUI" path="/ui/" size="548,312" exported="true"/>
+    <component id="n144n4u" name="Settlement" path="/ui/" size="548,312" exported="true"/>
+    <component id="ppcyn5g" name="InfoMsg" path="/ui/" size="800,40" exported="true"/>
+    <component id="sazt1s" name="h1" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1t" name="h2" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1u" name="h3" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1v" name="h4" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1w" name="h5" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1x" name="h6" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1y" name="h7" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt1z" name="h8" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt20" name="f6" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt21" name="h9" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt22" name="h10" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt23" name="h11" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt24" name="h12" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt25" name="h13" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt26" name="f1" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt27" name="f2" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt28" name="f3" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt29" name="f4" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2a" name="f5" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2b" name="f7" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2c" name="f8" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2d" name="f9" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2e" name="f10" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2f" name="f11" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2g" name="f12" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2h" name="f13" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2i" name="m1" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2j" name="m2" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2k" name="m3" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2l" name="m4" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2m" name="m5" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2n" name="m6" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2o" name="m7" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2p" name="m8" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2q" name="m9" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2r" name="m10" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2s" name="m11" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2t" name="m12" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2u" name="m13" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2v" name="t1" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2w" name="t2" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2x" name="t3" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2y" name="t4" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt2z" name="t5" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt30" name="t6" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt31" name="t7" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt32" name="t8" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt33" name="t9" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt34" name="t10" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt35" name="t11" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt36" name="t12" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt37" name="t13" path="/pokeco/" size="144,184" exported="true"/>
+    <component id="sazt39" name="main" path="/ui/" size="1136,640" exported="true"/>
+    <component id="sazt3d" name="ludan" path="/ui/" size="731,233" exported="true"/>
+    <component id="sazt3q" name="pai" path="/ui/" size="800,306" exported="true"/>
+    <font id="jv2dn6p" name="Font2" path="/Font/" size="0,0" exported="true" file="jv2dn6p.fnt"/>
+    <font id="jv2dn6q" name="Font3" path="/Font/" size="0,0" exported="true" file="jv2dn6q.fnt"/>
+    <font id="qq69n5l" name="Font1" path="/Font/" size="0,0" exported="true" file="qq69n5l.fnt"/>
+    <image id="sazt8" name="glod_10000" path="/image/" size="87,86" exported="true"/>
+    <image id="sazt9" name="glod_5000" path="/image/" size="87,86" exported="true"/>
+    <image id="sazta" name="glod_1000" path="/image/" size="83,86" exported="true"/>
+    <image id="saztb" name="glod_100" path="/image/" size="89,85" exported="true"/>
+    <image id="saztc" name="glod_10" path="/image/" size="84,85" exported="true"/>
+    <image id="saztd" name="glod_1" path="/image/" size="83,85" exported="true"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+  </resources>
+</packageDescription>ppcyn5g.xml|376|<component size="800,40">
+  <displayList>
+    <image id="n3_gn71" name="n3" src="gn71n6y" xy="-1,-2" size="801,47"/>
+    <text id="n0_ppcy" name="Message" xy="20,3" size="758,34" fontSize="30" color="#ffffff" align="center" autoSize="height" strokeColor="#000000" text="3wrwefdwe"/>
+    <image id="n2_gn71" name="n2" src="gn71n6y" xy="1120,116"/>
+  </displayList>
+</component>qq69n5l.fnt|755|info creator=UIBuilder resizable=true
+char id=48 img=jv2dn5p xoffset=0 yoffset=0 xadvance=25
+char id=49 img=jv2dn5q xoffset=0 yoffset=0 xadvance=25
+char id=58 img=jv2dn5r xoffset=0 yoffset=0 xadvance=15
+char id=44 img=jv2dn5s xoffset=0 yoffset=0 xadvance=15
+char id=50 img=jv2dn5t xoffset=0 yoffset=0 xadvance=25
+char id=51 img=jv2dn5u xoffset=0 yoffset=0 xadvance=25
+char id=52 img=jv2dn5v xoffset=0 yoffset=0 xadvance=25
+char id=53 img=jv2dn5w xoffset=0 yoffset=0 xadvance=25
+char id=54 img=jv2dn5x xoffset=0 yoffset=0 xadvance=25
+char id=55 img=jv2dn5y xoffset=0 yoffset=0 xadvance=25
+char id=56 img=jv2dn5z xoffset=0 yoffset=0 xadvance=25
+char id=57 img=jv2dn60 xoffset=0 yoffset=0 xadvance=25
+char id=46 img=eaj2n6v xoffset=-10 yoffset=0 xadvance=15
+sazt1s.xml|499|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n2" name="n2" src="sazt1l" xy="12,43" size="26,24"/>
+    <image id="n3" name="n3" src="sazt1l" xy="47,69" size="52,49"/>
+    <image id="n4" name="n4" src="sazt13" xy="10,12" size="28,26"/>
+    <image id="n6" name="n6" src="sazt1l" xy="128,141" size="26,24" rotation="180"/>
+    <image id="n7" name="n7" src="sazt13" xy="128,171" size="28,26" rotation="180"/>
+  </displayList>
+</component>sazt1t.xml|582|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,-1"/>
+    <image id="n1" name="n1" src="sazt12" xy="140,177" size="26,25" rotation="180"/>
+    <image id="n2" name="n2" src="sazt1l" xy="6,33" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1l" xy="48,21" size="43,40"/>
+    <image id="n5" name="n5" src="sazt1l" xy="89,139" size="43,40" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1l" xy="139,151" size="23,21" rotation="180"/>
+    <image id="n8" name="n8" src="sazt12" xy="1,4" size="32,26"/>
+  </displayList>
+</component>sazt1u.xml|719|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-4,-3" size="150,189"/>
+    <image id="n1" name="n1" src="sazt11" xy="0,3" size="30,28"/>
+    <image id="n2" name="n2" src="sazt1l" xy="162,24" size="0,0"/>
+    <image id="n3" name="n3" src="sazt1l" xy="2,31" size="25,27"/>
+    <image id="n4" name="n4" src="sazt11" xy="140,177" size="30,28" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="138,147" size="25,27" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1l" xy="49,18" size="40,38"/>
+    <image id="n9" name="n9" src="sazt1l" xy="50,68" size="37,35"/>
+    <image id="n10" name="n10" src="sazt1l" xy="50,122" size="39,36"/>
+  </displayList>
+</component>sazt1v.xml|708|<component size="144,184">
+  <displayList>
+    <image id="n7" name="n7" src="sazt1p" xy="-2,0"/>
+    <image id="n0" name="n0" src="sazt10" xy="0,1" size="25,23"/>
+    <image id="n1" name="n1" src="sazt1l" xy="0,28" size="20,19"/>
+    <image id="n2" name="n2" src="sazt10" xy="141,182" size="25,23" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1l" xy="137,156" size="21,20" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="40,18"/>
+    <image id="n6" name="n6" src="sazt1l" xy="90,18"/>
+    <image id="n8" name="n8" src="sazt1l" xy="64,160" size="33,30" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1l" xy="109,161" size="31,31" rotation="180"/>
+  </displayList>
+</component>sazt1w.xml|734|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="saztz" xy="1,6" size="26,24"/>
+    <image id="n2" name="n2" src="sazt1l" xy="4,31" size="18,17"/>
+    <image id="n3" name="n3" src="saztz" xy="138,175" size="26,24" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1l" xy="135,147" size="18,17" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="36,13"/>
+    <image id="n6" name="n6" src="sazt1l" xy="91,16"/>
+    <image id="n7" name="n7" src="sazt1l" xy="63,158" rotation="180"/>
+    <image id="n8" name="n8" src="sazt1l" xy="108,161" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1l" xy="56,71"/>
+  </displayList>
+</component>sazt1x.xml|791|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazty" xy="1,6" size="24,23"/>
+    <image id="n2" name="n2" src="sazty" xy="135,175" size="24,23" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="6,31" size="16,15"/>
+    <image id="n4" name="n4" src="sazt1l" xy="132,150" size="16,15" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="31,14"/>
+    <image id="n6" name="n6" src="sazt1l" xy="78,15"/>
+    <image id="n7" name="n7" src="sazt1l" xy="31,72"/>
+    <image id="n8" name="n8" src="sazt1l" xy="75,72"/>
+    <image id="n9" name="n9" src="sazt1l" xy="57,156" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1l" xy="105,157" rotation="180"/>
+  </displayList>
+</component>sazt1y.xml|849|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,-1"/>
+    <image id="n1" name="n1" src="saztx" xy="4,7" size="24,23"/>
+    <image id="n2" name="n2" src="saztx" xy="138,175" size="24,23" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="8,31" size="19,17"/>
+    <image id="n4" name="n4" src="sazt1l" xy="134,147" size="18,16" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="36,16"/>
+    <image id="n6" name="n6" src="sazt1l" xy="82,16"/>
+    <image id="n7" name="n7" src="sazt1l" xy="31,67"/>
+    <image id="n8" name="n8" src="sazt1l" xy="84,67"/>
+    <image id="n9" name="n9" src="sazt1l" xy="57,43"/>
+    <image id="n10" name="n10" src="sazt1l" xy="59,147" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1l" xy="106,147" rotation="180"/>
+  </displayList>
+</component>sazt1z.xml|984|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="saztw" xy="3,3" size="28,26"/>
+    <image id="n2" name="n2" src="saztw" xy="113,149" size="28,26"/>
+    <image id="n3" name="n3" src="sazt1l" xy="3,30" size="21,20"/>
+    <image id="n4" name="n4" src="sazt1l" xy="136,145" size="21,20" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="33,14"/>
+    <image id="n6" name="n6" src="sazt1l" xy="79,16"/>
+    <image id="n7" name="n7" src="sazt1l" xy="31,62" size="30,28"/>
+    <image id="n8" name="n8" src="sazt1l" xy="79,64" size="30,28"/>
+    <image id="n9" name="n9" src="sazt1l" xy="56,143" size="30,28" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1l" xy="107,144" size="30,28" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1l" xy="56,38" size="30,28"/>
+    <image id="n12" name="n12" src="sazt1l" xy="83,120" size="30,28" rotation="180"/>
+  </displayList>
+</component>sazt20.xml|823|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazty" xy="0,4" size="29,28"/>
+    <image id="n2" name="n2" src="sazty" xy="141,178" size="29,28" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="2,33" size="22,20"/>
+    <image id="n4" name="n4" src="sazt1m" xy="118,128" size="20,21"/>
+    <image id="n5" name="n5" src="sazt1m" xy="38,16" size="30,35"/>
+    <image id="n6" name="n6" src="sazt1m" xy="85,17" size="30,35"/>
+    <image id="n7" name="n7" src="sazt1m" xy="37,58" size="30,35"/>
+    <image id="n8" name="n8" src="sazt1m" xy="85,63" size="30,35"/>
+    <image id="n9" name="n9" src="sazt1m" xy="33,111" size="30,35"/>
+    <image id="n10" name="n10" src="sazt1m" xy="82,117" size="30,35"/>
+  </displayList>
+</component>sazt21.xml|840|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,0"/>
+    <image id="n1" name="n1" src="saztv" xy="4,5" size="25,26"/>
+    <image id="n2" name="n2" src="saztv" xy="137,178" size="25,26" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="32,17"/>
+    <image id="n4" name="n4" src="sazt1l" xy="81,19"/>
+    <image id="n5" name="n5" src="sazt1l" xy="81,49"/>
+    <image id="n6" name="n6" src="sazt1l" xy="30,49"/>
+    <image id="n7" name="n7" src="sazt1l" xy="111,111" rotation="180"/>
+    <image id="n8" name="n8" src="sazt1l" xy="111,151" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1l" xy="61,109" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1l" xy="57,145" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1l" xy="55,70"/>
+  </displayList>
+</component>sazt22.xml|1069|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,-2"/>
+    <image id="n1" name="n1" src="saztu" xy="3,5" size="21,20"/>
+    <image id="n2" name="n2" src="sazt1l" xy="5,31" size="21,26"/>
+    <image id="n3" name="n3" src="saztu" xy="133,177" size="21,20" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1l" xy="138,147" size="23,25" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1l" xy="34,9"/>
+    <image id="n6" name="n6" src="sazt1l" xy="82,12"/>
+    <image id="n7" name="n7" src="sazt1l" xy="32,41"/>
+    <image id="n8" name="n8" src="sazt1l" xy="81,45"/>
+    <image id="n9" name="n9" src="sazt1l" xy="57,26"/>
+    <image id="n10" name="n10" src="sazt1l" xy="60,105" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1l" xy="110,107" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1l" xy="55,143" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1l" xy="107,147" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1l" xy="85,132" rotation="180"/>
+  </displayList>
+</component>sazt23.xml|402|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,-2"/>
+    <image id="n1" name="n1" src="saztt" xy="-6,0"/>
+    <image id="n2" name="n2" src="saztt" xy="144,178" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="2,39" size="23,28"/>
+    <image id="n4" name="n4" src="sazt1l" xy="135,133" size="23,28" rotation="180"/>
+  </displayList>
+</component>sazt24.xml|402|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,-2"/>
+    <image id="n1" name="n1" src="sazts" xy="2,4"/>
+    <image id="n2" name="n2" src="sazts" xy="139,175" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="10,50" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1l" xy="130,130" size="23,21" rotation="180"/>
+  </displayList>
+</component>sazt25.xml|374|<component size="144,184">
+  <displayList>
+    <image id="n6" name="n6" src="sazt1p" xy="0,2"/>
+    <image id="n1" name="n1" src="saztr" xy="3,4"/>
+    <image id="n2" name="n2" src="saztr" xy="142,173" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1l" xy="8,45"/>
+    <image id="n8" name="n8" src="sazt1l" xy="137,126" rotation="180"/>
+  </displayList>
+</component>sazt26.xml|469|<component size="144,184" anchor="true">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt13" xy="0,4"/>
+    <image id="n2" name="n2" src="sazt13" xy="142,178" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="8,48" size="22,21"/>
+    <image id="n4" name="n4" src="sazt1m" xy="114,118" size="22,21"/>
+    <image id="n5" name="n5" src="sazt1m" xy="55,64" size="30,47"/>
+  </displayList>
+</component>sazt27.xml|526|<component size="144,184">
+  <displayList>
+    <image id="n7" name="n7" src="sazt1p" xy="-1,0"/>
+    <image id="n1" name="n1" src="sazt12" xy="-1,8"/>
+    <image id="n2" name="n2" src="sazt12" xy="142,183" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="6,47" size="21,28"/>
+    <image id="n4" name="n4" src="sazt1m" xy="114,116" size="21,28"/>
+    <image id="n5" name="n5" src="sazt1m" xy="46,27" size="51,48"/>
+    <image id="n8" name="n8" src="sazt1m" xy="46,106" size="51,48"/>
+  </displayList>
+</component>sazt28.xml|594|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,1"/>
+    <image id="n1" name="n1" src="sazt11" xy="-2,4"/>
+    <image id="n2" name="n2" src="sazt11" xy="144,178" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="3,45" size="24,22"/>
+    <image id="n4" name="n4" src="sazt1m" xy="115,113" size="24,22"/>
+    <image id="n5" name="n5" src="sazt1m" xy="49,14" size="39,37"/>
+    <image id="n6" name="n6" src="sazt1m" xy="50,67" size="39,37"/>
+    <image id="n7" name="n7" src="sazt1m" xy="49,122" size="39,37"/>
+  </displayList>
+</component>sazt29.xml|663|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,0"/>
+    <image id="n1" name="n1" src="sazt10" xy="-1,4"/>
+    <image id="n2" name="n2" src="sazt10" xy="145,180" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="6,44" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1m" xy="112,118" size="23,21"/>
+    <image id="n5" name="n5" src="sazt1m" xy="33,29" size="39,36"/>
+    <image id="n6" name="n6" src="sazt1m" xy="80,32" size="39,36"/>
+    <image id="n7" name="n7" src="sazt1m" xy="26,112" size="39,36"/>
+    <image id="n8" name="n8" src="sazt1m" xy="71,115" size="39,36"/>
+  </displayList>
+</component>sazt2a.xml|591|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="saztz" xy="-1,4"/>
+    <image id="n2" name="n2" src="saztz" xy="145,172" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="31,19" size="39,36"/>
+    <image id="n4" name="n4" src="sazt1m" xy="78,20" size="39,36"/>
+    <image id="n5" name="n5" src="sazt1m" xy="26,108" size="39,36"/>
+    <image id="n6" name="n6" src="sazt1m" xy="73,112" size="39,36"/>
+    <image id="n7" name="n7" src="sazt1m" xy="47,67" size="39,36"/>
+  </displayList>
+</component>sazt2b.xml|867|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,1"/>
+    <image id="n1" name="n1" src="saztx" xy="0,7"/>
+    <image id="n2" name="n2" src="sazt1m" xy="1,44" size="30,27"/>
+    <image id="n3" name="n3" src="saztx" xy="141,176" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1m" xy="110,112" size="30,27"/>
+    <image id="n5" name="n5" src="sazt1m" xy="38,19" size="37,35"/>
+    <image id="n6" name="n6" src="sazt1m" xy="86,20" size="37,35"/>
+    <image id="n7" name="n7" src="sazt1m" xy="36,66" size="37,35"/>
+    <image id="n8" name="n8" src="sazt1m" xy="85,70" size="37,35"/>
+    <image id="n9" name="n9" src="sazt1m" xy="34,119" size="37,35"/>
+    <image id="n10" name="n10" src="sazt1m" xy="78,124" size="37,35"/>
+    <image id="n11" name="n11" src="sazt1m" xy="60,43" size="37,35"/>
+  </displayList>
+</component>sazt2c.xml|932|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,0"/>
+    <image id="n1" name="n1" src="sazt1m" xy="3,41" size="23,22"/>
+    <image id="n2" name="n2" src="saztw" xy="-2,1"/>
+    <image id="n3" name="n3" src="saztw" xy="106,140"/>
+    <image id="n7" name="n7" src="sazt1m" xy="113,112" size="23,22"/>
+    <image id="n8" name="n8" src="sazt1m" xy="37,15" size="31,34"/>
+    <image id="n10" name="n10" src="sazt1m" xy="83,18" size="31,34"/>
+    <image id="n11" name="n11" src="sazt1m" xy="35,57" size="31,34"/>
+    <image id="n12" name="n12" src="sazt1m" xy="81,61" size="31,34"/>
+    <image id="n13" name="n13" src="sazt1m" xy="32,104" size="31,34"/>
+    <image id="n14" name="n14" src="sazt1m" xy="79,111" size="31,34"/>
+    <image id="n15" name="n15" src="sazt1m" xy="59,39" size="31,34"/>
+    <image id="n16" name="n16" src="sazt1m" xy="58,90" size="31,34"/>
+  </displayList>
+</component>sazt2d.xml|894|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,1"/>
+    <image id="n1" name="n1" src="saztv" xy="-2,3"/>
+    <image id="n3" name="n3" src="saztv" xy="146,176" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1m" xy="9,43" size="18,16"/>
+    <image id="n5" name="n5" src="sazt1m" xy="120,118" size="18,16"/>
+    <image id="n6" name="n6" src="sazt1m" xy="33,13"/>
+    <image id="n7" name="n7" src="sazt1m" xy="74,14"/>
+    <image id="n8" name="n8" src="sazt1m" xy="28,58"/>
+    <image id="n9" name="n9" src="sazt1m" xy="77,58"/>
+    <image id="n10" name="n10" src="sazt1m" xy="27,97"/>
+    <image id="n11" name="n11" src="sazt1m" xy="77,100"/>
+    <image id="n13" name="n13" src="sazt1m" xy="78,137"/>
+    <image id="n14" name="n14" src="sazt1m" xy="28,136"/>
+    <image id="n15" name="n15" src="sazt1m" xy="53,78"/>
+  </displayList>
+</component>sazt2e.xml|1107|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,-1"/>
+    <image id="n1" name="n1" src="saztu" xy="1,6" size="32,30"/>
+    <image id="n2" name="n2" src="saztu" xy="138,176" size="32,30" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="4,39" size="25,23"/>
+    <image id="n5" name="n5" src="sazt1m" xy="110,116" size="26,24"/>
+    <image id="n6" name="n6" src="sazt1m" xy="42,11" size="30,31"/>
+    <image id="n7" name="n7" src="sazt1m" xy="82,12" size="30,31"/>
+    <image id="n8" name="n8" src="sazt1m" xy="80,51" size="30,31"/>
+    <image id="n9" name="n9" src="sazt1m" xy="43,52" size="30,31"/>
+    <image id="n10" name="n10" src="sazt1m" xy="44,87" size="30,31"/>
+    <image id="n11" name="n11" src="sazt1m" xy="79,93" size="30,31"/>
+    <image id="n12" name="n12" src="sazt1m" xy="78,134" size="30,31"/>
+    <image id="n13" name="n13" src="sazt1m" xy="41,133" size="30,31"/>
+    <image id="n14" name="n14" src="sazt1m" xy="61,34" size="30,31"/>
+    <image id="n15" name="n15" src="sazt1m" xy="61,108" size="30,31"/>
+  </displayList>
+</component>sazt2f.xml|387|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,1"/>
+    <image id="n1" name="n1" src="saztt" xy="-4,5"/>
+    <image id="n4" name="n4" src="saztt" xy="146,180" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1m" xy="4,44" size="24,22"/>
+    <image id="n6" name="n6" src="sazt1m" xy="115,114" size="24,22"/>
+  </displayList>
+</component>sazt2g.xml|360|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazts" xy="-1,8"/>
+    <image id="n3" name="n3" src="sazts" xy="142,179" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1m" xy="3,46"/>
+    <image id="n6" name="n6" src="sazt1m" xy="107,108"/>
+  </displayList>
+</component>sazt2h.xml|386|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="-1,0"/>
+    <image id="n1" name="n1" src="saztr" xy="2,5"/>
+    <image id="n2" name="n2" src="saztr" xy="138,177" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1m" xy="8,45" size="20,18"/>
+    <image id="n4" name="n4" src="sazt1m" xy="111,114" size="20,18"/>
+  </displayList>
+</component>sazt2i.xml|471|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1g" xy="-2,7"/>
+    <image id="n2" name="n2" src="sazt1g" xy="144,179" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="6,47" size="19,18"/>
+    <image id="n4" name="n4" src="sazt1n" xy="136,133" size="19,18" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="54,81" size="32,30"/>
+  </displayList>
+</component>sazt2j.xml|554|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1f" xy="0,3"/>
+    <image id="n2" name="n2" src="sazt1f" xy="143,177" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="6,43" size="24,22"/>
+    <image id="n4" name="n4" src="sazt1n" xy="137,133" size="24,22" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="53,23" size="42,39"/>
+    <image id="n6" name="n6" src="sazt1n" xy="96,156" size="42,39" rotation="180"/>
+  </displayList>
+</component>sazt2k.xml|607|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1e" xy="0,5"/>
+    <image id="n2" name="n2" src="sazt1e" xy="146,178" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="7,43" size="20,19"/>
+    <image id="n4" name="n4" src="sazt1n" xy="138,133" size="20,19" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="50,18" size="37,34"/>
+    <image id="n6" name="n6" src="sazt1n" xy="53,72" size="37,34"/>
+    <image id="n7" name="n7" src="sazt1n" xy="53,130" size="37,34"/>
+  </displayList>
+</component>sazt2l.xml|708|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1d" xy="-2,3"/>
+    <image id="n2" name="n2" src="sazt1d" xy="146,181" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="8,42" size="19,17"/>
+    <image id="n4" name="n4" src="sazt1n" xy="136,137" size="19,17" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="42,20" size="36,34"/>
+    <image id="n6" name="n6" src="sazt1n" xy="89,21" size="36,34"/>
+    <image id="n7" name="n7" src="sazt1n" xy="118,144" size="36,34" rotation="180"/>
+    <image id="n8" name="n8" src="sazt1n" xy="70,144" size="36,34" rotation="180"/>
+  </displayList>
+</component>sazt2m.xml|775|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1c" xy="0,4"/>
+    <image id="n2" name="n2" src="sazt1c" xy="142,175" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="6,45" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1n" xy="134,133" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="37,21" size="37,35"/>
+    <image id="n6" name="n6" src="sazt1n" xy="84,23" size="37,35"/>
+    <image id="n7" name="n7" src="sazt1n" xy="109,164" size="37,35" rotation="180"/>
+    <image id="n8" name="n8" src="sazt1n" xy="65,164" size="37,35" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1n" xy="54,74" size="37,35"/>
+  </displayList>
+</component>sazt2n.xml|846|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1b" xy="-4,7"/>
+    <image id="n2" name="n2" src="sazt1b" xy="143,179" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="5,47" size="20,19"/>
+    <image id="n4" name="n4" src="sazt1n" xy="134,134" size="20,19" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="35,24" size="35,32"/>
+    <image id="n6" name="n6" src="sazt1n" xy="75,24" size="35,32"/>
+    <image id="n7" name="n7" src="sazt1n" xy="32,72" size="35,32"/>
+    <image id="n8" name="n8" src="sazt1n" xy="75,76" size="35,32"/>
+    <image id="n9" name="n9" src="sazt1n" xy="110,157" size="35,32" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1n" xy="66,154" size="35,32" rotation="180"/>
+  </displayList>
+</component>sazt2o.xml|917|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1a" xy="0,6"/>
+    <image id="n2" name="n2" src="sazt1n" xy="5,44" size="26,24"/>
+    <image id="n3" name="n3" src="sazt1a" xy="139,174" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="135,131" size="26,24" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1n" xy="33,16" size="35,32"/>
+    <image id="n7" name="n7" src="sazt1n" xy="77,18" size="35,32"/>
+    <image id="n8" name="n8" src="sazt1n" xy="28,63" size="35,32"/>
+    <image id="n9" name="n9" src="sazt1n" xy="79,64" size="35,32"/>
+    <image id="n10" name="n10" src="sazt1n" xy="55,43" size="35,32"/>
+    <image id="n11" name="n11" src="sazt1n" xy="62,139" size="33,30" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1n" xy="107,141" size="35,32" rotation="180"/>
+  </displayList>
+</component>sazt2p.xml|1023|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt19" xy="0,4"/>
+    <image id="n2" name="n2" src="sazt19" xy="106,138"/>
+    <image id="n3" name="n3" src="sazt1n" xy="8,45" size="22,20"/>
+    <image id="n4" name="n4" src="sazt1n" xy="136,132" size="22,20" rotation="180"/>
+    <image id="n7" name="n7" src="sazt1n" xy="33,13" size="33,30"/>
+    <image id="n8" name="n8" src="sazt1n" xy="94,13" size="33,30"/>
+    <image id="n9" name="n9" src="sazt1n" xy="65,43" size="33,30"/>
+    <image id="n11" name="n11" src="sazt1n" xy="126,106" size="33,30" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1n" xy="63,101" size="33,30" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1n" xy="115,170" size="33,30" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1n" xy="90,144" size="33,30" rotation="180"/>
+    <image id="n15" name="n15" src="sazt1n" xy="55,161" size="29,27" rotation="180"/>
+  </displayList>
+</component>sazt2q.xml|1090|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt18" xy="-4,6"/>
+    <image id="n3" name="n3" src="sazt18" xy="145,178" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1n" xy="5,47" size="20,19"/>
+    <image id="n5" name="n5" src="sazt1n" xy="136,135" size="20,19" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1n" xy="31,16" size="31,30"/>
+    <image id="n7" name="n7" src="sazt1n" xy="74,17" size="31,30"/>
+    <image id="n8" name="n8" src="sazt1n" xy="80,63" size="31,30"/>
+    <image id="n9" name="n9" src="sazt1n" xy="29,60" size="31,30"/>
+    <image id="n10" name="n10" src="sazt1n" xy="53,40" size="31,30"/>
+    <image id="n11" name="n11" src="sazt1n" xy="56,136" size="31,28" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1n" xy="99,135" size="31,28" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1n" xy="54,170" size="31,28" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1n" xy="105,172" size="31,28" rotation="180"/>
+  </displayList>
+</component>sazt2r.xml|1174|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt17" xy="3,3"/>
+    <image id="n2" name="n2" src="sazt17" xy="141,175" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="11,41" size="22,20"/>
+    <image id="n4" name="n4" src="sazt1n" xy="129,134" size="22,20" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1n" xy="44,9" size="32,30"/>
+    <image id="n6" name="n6" src="sazt1n" xy="91,10" size="32,30"/>
+    <image id="n7" name="n7" src="sazt1n" xy="35,52" size="32,30"/>
+    <image id="n8" name="n8" src="sazt1n" xy="69,38" size="32,30"/>
+    <image id="n9" name="n9" src="sazt1n" xy="96,58" size="32,30"/>
+    <image id="n10" name="n10" src="sazt1n" xy="58,120" size="32,30" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1n" xy="108,122" size="32,30" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1n" xy="83,142" size="32,30" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1n" xy="63,176" size="32,30" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1n" xy="100,179" size="32,30" rotation="180"/>
+  </displayList>
+</component>sazt2s.xml|402|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt16" xy="4,8"/>
+    <image id="n2" name="n2" src="sazt16" xy="143,181" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="9,47" size="25,23"/>
+    <image id="n4" name="n4" src="sazt1n" xy="137,140" size="25,23" rotation="180"/>
+  </displayList>
+</component>sazt2t.xml|402|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt15" xy="2,4"/>
+    <image id="n2" name="n2" src="sazt15" xy="139,174" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="7,47" size="24,22"/>
+    <image id="n4" name="n4" src="sazt1n" xy="131,129" size="24,22" rotation="180"/>
+  </displayList>
+</component>sazt2u.xml|402|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt14" xy="5,6"/>
+    <image id="n2" name="n2" src="sazt14" xy="137,175" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1n" xy="7,47" size="23,22"/>
+    <image id="n4" name="n4" src="sazt1n" xy="131,131" size="23,22" rotation="180"/>
+  </displayList>
+</component>sazt2v.xml|470|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1g" xy="0,8"/>
+    <image id="n3" name="n3" src="sazt1g" xy="139,180" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1j" xy="9,47" size="23,21"/>
+    <image id="n5" name="n5" src="sazt1j" xy="133,134" size="23,21" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1j" xy="56,64" size="47,44"/>
+  </displayList>
+</component>sazt2w.xml|554|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1f" xy="1,6"/>
+    <image id="n2" name="n2" src="sazt1f" xy="144,179" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="8,46" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="137,138" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="51,28" size="35,35"/>
+    <image id="n7" name="n7" src="sazt1j" xy="85,153" size="35,35" rotation="180"/>
+  </displayList>
+</component>sazt2x.xml|623|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1e" xy="4,2"/>
+    <image id="n2" name="n2" src="sazt1e" xy="142,176" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="12,40" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="132,132" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="59,24" size="35,33"/>
+    <image id="n6" name="n6" src="sazt1j" xy="59,75" size="35,33"/>
+    <image id="n7" name="n7" src="sazt1j" xy="92,158" size="35,33" rotation="180"/>
+  </displayList>
+</component>sazt2y.xml|707|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1d" xy="1,6"/>
+    <image id="n3" name="n3" src="sazt1d" xy="144,175" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1j" xy="9,44" size="23,21"/>
+    <image id="n5" name="n5" src="sazt1j" xy="135,133" size="23,21" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1j" xy="42,23" size="38,36"/>
+    <image id="n7" name="n7" src="sazt1j" xy="86,24" size="38,36"/>
+    <image id="n8" name="n8" src="sazt1j" xy="113,142" size="38,36" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1j" xy="69,139" size="38,36" rotation="180"/>
+  </displayList>
+</component>sazt2z.xml|776|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1c" xy="-3,8"/>
+    <image id="n2" name="n2" src="sazt1c" xy="139,177" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="7,46" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="134,137" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="39,17" size="34,36"/>
+    <image id="n6" name="n6" src="sazt1j" xy="89,18" size="34,36"/>
+    <image id="n7" name="n7" src="sazt1j" xy="111,150" size="34,36" rotation="180"/>
+    <image id="n8" name="n8" src="sazt1j" xy="70,150" size="34,36" rotation="180"/>
+    <image id="n9" name="n9" src="sazt1j" xy="58,65" size="34,36"/>
+  </displayList>
+</component>sazt30.xml|845|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1b" xy="0,3"/>
+    <image id="n2" name="n2" src="sazt1b" xy="138,177" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="6,42" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="129,134" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="37,19" size="31,33"/>
+    <image id="n6" name="n6" src="sazt1j" xy="83,21" size="31,33"/>
+    <image id="n7" name="n7" src="sazt1j" xy="35,67" size="31,33"/>
+    <image id="n8" name="n8" src="sazt1j" xy="83,66" size="31,33"/>
+    <image id="n9" name="n9" src="sazt1j" xy="108,149" size="31,33" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1j" xy="64,145" size="31,33" rotation="180"/>
+  </displayList>
+</component>sazt31.xml|915|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt1a" xy="1,8"/>
+    <image id="n2" name="n2" src="sazt1a" xy="141,173" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="4,47" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="130,131" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="33,16" size="34,35"/>
+    <image id="n6" name="n6" src="sazt1j" xy="82,15" size="34,35"/>
+    <image id="n7" name="n7" src="sazt1j" xy="31,76" size="34,35"/>
+    <image id="n8" name="n8" src="sazt1j" xy="59,53" size="34,35"/>
+    <image id="n9" name="n9" src="sazt1j" xy="85,76" size="34,35"/>
+    <image id="n10" name="n10" src="sazt1j" xy="113,159" size="34,35" rotation="180"/>
+    <image id="n12" name="n12" src="sazt1j" xy="63,157" size="34,35" rotation="180"/>
+  </displayList>
+</component>sazt32.xml|992|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt19" xy="-1,10"/>
+    <image id="n2" name="n2" src="sazt19" xy="105,143"/>
+    <image id="n3" name="n3" src="sazt1j" xy="5,50" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="132,140" size="23,21" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="31,22" size="33,34"/>
+    <image id="n7" name="n7" src="sazt1j" xy="80,24" size="33,34"/>
+    <image id="n8" name="n8" src="sazt1j" xy="24,83" size="33,34"/>
+    <image id="n10" name="n10" src="sazt1j" xy="54,174" size="33,34" rotation="180"/>
+    <image id="n11" name="n11" src="sazt1j" xy="79,82" size="33,34"/>
+    <image id="n12" name="n12" src="sazt1j" xy="110,176" size="33,34" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1j" xy="50,53" size="33,34"/>
+    <image id="n14" name="n14" src="sazt1j" xy="81,153" size="33,34" rotation="180"/>
+  </displayList>
+</component>sazt33.xml|1091|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt18" xy="6,7"/>
+    <image id="n2" name="n2" src="sazt18" xy="143,179" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="12,47" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="137,136" size="23,21" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1j" xy="86,16" size="32,41"/>
+    <image id="n7" name="n7" src="sazt1j" xy="87,60" size="32,41"/>
+    <image id="n8" name="n8" src="sazt1j" xy="116,139" size="32,41" rotation="180"/>
+    <image id="n10" name="n10" src="sazt1j" xy="36,51" size="32,41"/>
+    <image id="n12" name="n12" src="sazt1j" xy="67,136" size="32,41" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1j" xy="59,69" size="32,41"/>
+    <image id="n15" name="n15" src="sazt1j" xy="66,179" size="32,41" rotation="180"/>
+    <image id="n16" name="n16" src="sazt1j" xy="111,180" size="32,41" rotation="180"/>
+    <image id="n5" name="n5" src="sazt1j" xy="46,13" size="32,41"/>
+  </displayList>
+</component>sazt34.xml|1178|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt17" xy="2,11"/>
+    <image id="n3" name="n3" src="sazt17" xy="141,180" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1j" xy="11,51" size="23,21"/>
+    <image id="n5" name="n5" src="sazt1j" xy="133,136" size="23,21" rotation="180"/>
+    <image id="n6" name="n6" src="sazt1j" xy="43,14" size="32,38"/>
+    <image id="n7" name="n7" src="sazt1j" xy="86,16" size="32,38"/>
+    <image id="n8" name="n8" src="sazt1j" xy="36,55" size="32,38"/>
+    <image id="n9" name="n9" src="sazt1j" xy="89,59" size="32,38"/>
+    <image id="n10" name="n10" src="sazt1j" xy="63,39" size="32,38"/>
+    <image id="n11" name="n11" src="sazt1j" xy="111,130" size="32,38" rotation="180"/>
+    <image id="n13" name="n13" src="sazt1j" xy="61,131" size="32,38" rotation="180"/>
+    <image id="n14" name="n14" src="sazt1j" xy="95,157" size="32,38" rotation="180"/>
+    <image id="n15" name="n15" src="sazt1j" xy="102,187" size="32,38" rotation="180"/>
+    <image id="n16" name="n16" src="sazt1j" xy="64,183" size="32,38" rotation="180"/>
+  </displayList>
+</component>sazt35.xml|404|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt16" xy="1,11"/>
+    <image id="n2" name="n2" src="sazt16" xy="144,182" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="12,52" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="134,138" size="23,21" rotation="180"/>
+  </displayList>
+</component>sazt36.xml|387|<component size="144,184">
+  <displayList>
+    <image id="n0" name="n0" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt15" xy="1,3"/>
+    <image id="n2" name="n2" src="sazt15" xy="102,138"/>
+    <image id="n3" name="n3" src="sazt1j" xy="8,45" size="23,21"/>
+    <image id="n4" name="n4" src="sazt1j" xy="133,131" size="23,21" rotation="180"/>
+  </displayList>
+</component>sazt37.xml|423|<component size="144,184">
+  <displayList>
+    <image id="n6_ppcy" name="n6" src="sazt1p" xy="0,0"/>
+    <image id="n1" name="n1" src="sazt14" xy="2,9"/>
+    <image id="n2" name="n2" src="sazt14" xy="136,179" rotation="180"/>
+    <image id="n3" name="n3" src="sazt1j" xy="135,137" size="25,18" rotation="180"/>
+    <image id="n4" name="n4" src="sazt1j" xy="30,68" size="25,18" rotation="180"/>
+  </displayList>
+</component>sazt39.xml|6413|<component size="1136,640">
+  <displayList>
+    <image id="n0" name="n0" src="saztg" xy="0,0"/>
+    <image id="n98_jv2d" name="waitZhuang" src="jv2dn6u" xy="6,472"/>
+    <image id="n4" name="n4" src="sazt3" xy="11,98" size="83,139"/>
+    <component id="n18" name="sqsz" src="sazt3g" xy="172,478"/>
+    <component id="n19" name="lishi" src="sazt3h" xy="1084,182"/>
+    <component id="n27" name="gold1" src="sazt3k" xy="351,536"/>
+    <component id="n28" name="gold2" src="sazt3l" xy="436,536"/>
+    <component id="n29" name="gold3" src="sazt3m" xy="523,536"/>
+    <component id="n30" name="gold4" src="sazt3n" xy="614,536"/>
+    <component id="n31" name="gold6" src="sazt3o" xy="788,536"/>
+    <component id="n32" name="gold5" src="sazt3p" xy="699,536"/>
+    <text id="n33" name="timeText" xy="13,205" size="74,26" font="ui://nyvoaldgjv2dn6q" fontSize="23" color="#ffff00" align="center" autoSize="none" text="00:00"/>
+    <component id="n35" name="head" src="sazt3u" xy="17,3"/>
+    <list id="n41" name="zhuangList" xy="15,531" size="284,95" overflow="scroll" defaultItem="ui://nyvoaldgdfnf3v">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n46" name="xianfenList" xy="907,523" size="205,97" overflow="scroll" lineGap="3" defaultItem="ui://nyvoaldgdfnf3w">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n59_owo8" name="n59" src="owo8n4p" xy="1368,363"/>
+    <component id="n61_owo8" name="sqxz" src="owo8n4q" xy="172,478"/>
+    <component id="n63_bnnf" name="xia5" src="hz3rn4v" xy="166,131"/>
+    <component id="n64_bnnf" name="xia3" src="hz3rn4w" xy="131,197"/>
+    <component id="n65_bnnf" name="xia4" src="hz3rn4y" xy="151,358"/>
+    <component id="n66_bnnf" name="xia6" src="hz3rn4z" xy="414,239"/>
+    <component id="n67_bnnf" name="xia7" src="hz3rn50" xy="414,358"/>
+    <component id="n68_bnnf" name="xia2" src="hz3rn51" xy="654,129"/>
+    <component id="n69_bnnf" name="xia0" src="hz3rn52" xy="657,199"/>
+    <component id="n70_bnnf" name="xia1" src="hz3rn53" xy="658,358"/>
+    <component id="n96_b9xm" name="goldbox" src="b9xmn5k" xy="0,0"/>
+    <text id="n76_deoe" name="desktopAll5" xy="243,159" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲对子567.12"/>
+    <text id="n77_deoe" name="desktopMe5" xy="243,188" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲对子5678.12"/>
+    <text id="n78_deoe" name="desktopAll4" xy="237,387" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲天王4"/>
+    <text id="n79_deoe" name="desktopMe4" xy="237,415" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲天王4"/>
+    <text id="n80_deoe" name="desktopAll3" xy="212,269" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲3"/>
+    <text id="n81_deoe" name="desktopMe3" xy="212,297" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="闲3"/>
+    <text id="n82_deoe" name="desktopAll7" xy="464,390" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="同点平7"/>
+    <text id="n83_deoe" name="desktopMe7" xy="464,418" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="同点平7"/>
+    <text id="n84_deoe" name="desktopAll6" xy="464,287" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="平6"/>
+    <text id="n85_deoe" name="desktopMe6" xy="464,315" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="平6"/>
+    <text id="n86_deoe" name="desktopAll2" xy="689,156" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄对子2"/>
+    <text id="n87_deoe" name="desktopMe2" xy="689,184" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄对子2"/>
+    <text id="n88_deoe" name="desktopAll0" xy="718,272" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄0"/>
+    <text id="n89_deoe" name="desktopMe0" xy="719,299" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄0"/>
+    <text id="n90_deoe" name="desktopAll1" xy="719,385" size="180,28" font="ui://nyvoaldgqq69n5l" fontSize="24" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄天王1"/>
+    <text id="n91_deoe" name="desktopMe1" xy="719,413" size="180,24" font="ui://nyvoaldgjv2dn6p" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="height" shadowColor="#000000" shadowOffset="1,1" text="庄天王1"/>
+    <text id="n72_ppcy" name="notice" xy="251,91" size="641,30" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="系统公告"/>
+    <graph id="n74_deoe" name="n74" xy="14,185" size="78,15" type="rect" fillColor="#ff000000"/>
+    <text id="n75_deoe" name="timeDesc" xy="14,184" size="75,16" fontSize="12" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="开牌时间"/>
+    <text id="n93_n6wd" name="zMessage" xy="10,372" size="247,100" font="系统字体" fontSize="18" color="#ccff00" autoSize="none" text="庄家信息:&#xA;庄家信息:&#xA;庄家信息:&#xA;庄家信息:"/>
+  </displayList>
+</component>sazt3d.xml|1795|<component size="731,233">
+  <displayList>
+    <image id="n0" name="n0" src="sazt2" xy="0,10" group="n23_owo8"/>
+    <component id="n2" name="closeBtn" src="sazt3f" xy="680,-7" group="n23_owo8"/>
+    <list id="n26_n144" name="ludanList" xy="54,107" size="618,90" group="n23_owo8" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://nyvoaldgn144n4s">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n27_bnnf" name="n27" src="saztj" xy="22,109" size="25,27" group="n23_owo8"/>
+    <image id="n28_bnnf" name="n28" src="saztl" xy="22,139" size="25,25" group="n23_owo8"/>
+    <image id="n30_n6wd" name="n30" src="n6wdn5i" xy="22,168" size="25,25" group="n23_owo8"/>
+    <image id="n31_n6wd" name="n31" src="n144n4r" xy="684,105" size="30,30" group="n23_owo8" color="#663366"/>
+    <image id="n32_n6wd" name="n32" src="n144n4r" xy="683,136" size="30,30" group="n23_owo8" color="#663366"/>
+    <image id="n33_n6wd" name="n33" src="n144n4r" xy="684,167" size="30,30" group="n23_owo8" color="#663366"/>
+    <text id="n34_n6wd" name="zText" xy="684,108" size="31,25" group="n23_owo8" font="系统字体" fontSize="18" color="#ffff00" align="center" autoSize="none" text="0"/>
+    <text id="n35_n6wd" name="xText" xy="683,139" size="31,25" group="n23_owo8" font="系统字体" fontSize="18" color="#ffff00" align="center" autoSize="none" text="0"/>
+    <text id="n36_n6wd" name="pText" xy="684,171" size="31,25" group="n23_owo8" font="系统字体" fontSize="18" color="#ffff00" align="center" autoSize="none" text="0"/>
+    <group id="n23_owo8" name="n23" xy="0,-7" size="753,229" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>sazt3f.xml|357|<component size="73,76" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="saztk" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>sazt3g.xml|358|<component size="134,44" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="saztn" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>sazt3h.xml|357|<component size="52,240" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="sazt1" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>sazt3i.xml|357|<component size="62,94" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="sazto" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>sazt3j.xml|357|<component size="62,61" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="sazti" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>sazt3k.xml|474|<component size="83,85" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n3_ppcy" name="n3" src="ppcyn5h" xy="-14,-15">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="saztd" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3l.xml|474|<component size="84,85" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_ppcy" name="n2" src="ppcyn5h" xy="-13,-15">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="saztc" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3m.xml|474|<component size="89,85" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_ppcy" name="n2" src="ppcyn5h" xy="-11,-15">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="saztb" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3n.xml|474|<component size="83,86" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_ppcy" name="n2" src="ppcyn5h" xy="-14,-14">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="sazta" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3o.xml|474|<component size="87,86" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_ppcy" name="n2" src="ppcyn5h" xy="-12,-14">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="sazt8" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3p.xml|474|<component size="87,86" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <image id="n2_ppcy" name="n2" src="ppcyn5h" xy="-12,-13">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="sazt9" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio" downEffect="scale" downEffectValue="1.20"/>
+</component>sazt3q.xml|1421|<component size="800,306">
+  <displayList>
+    <image id="n0" name="n0" src="sazt0" xy="29,3" size="367,300" group="n7_10b9n"/>
+    <image id="n3" name="n3" src="saztl" xy="71,28" group="n7_10b9n"/>
+    <text id="n5" name="XDian" xy="151,27" size="207,51" group="n7_10b9n" fontSize="30" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="7点"/>
+    <component id="n8_10b9n" name="XP1" src="sazt2l" xy="58,93" group="n7_10b9n"/>
+    <component id="n9_10b9n" name="XP2" src="sazt2l" xy="133,93" group="n7_10b9n"/>
+    <component id="n15_ik2l" name="XP3" src="sazt2l" xy="219,93" group="n7_10b9n"/>
+    <image id="n1" name="n1" src="sazt0" xy="401,3" size="360,300" group="n7_10b9n"/>
+    <image id="n2" name="n2" src="saztj" xy="436,28" group="n7_10b9n"/>
+    <text id="n4" name="ZDian" xy="517,27" size="206,51" group="n7_10b9n" fontSize="30" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="7点"/>
+    <component id="n10_10b9n" name="ZP1" src="10b9n3x" xy="432,93" pivot="0.5,0.5" group="n7_10b9n"/>
+    <component id="n11_10b9n" name="ZP2" src="sazt2m" xy="502,93" pivot="0.5,0.5" group="n7_10b9n"/>
+    <component id="n14_ik2l" name="ZP3" src="sazt2m" xy="587,93" pivot="0.5,0.5" group="n7_10b9n"/>
+    <group id="n7_10b9n" name="n7" xy="29,3" size="732,300" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>sazt3u.xml|793|<component size="1110,110">
+  <displayList>
+    <image id="n0" name="n0" src="sazt5" xy="76,2"/>
+    <component id="n1" name="setbtn" src="sazt3i" xy="1045,13"/>
+    <component id="n2" name="quitBtn" src="sazt3j" xy="2,12"/>
+    <text id="n3" name="userName" xy="163,16" size="172,23" font="系统字体" fontSize="18" color="#ffffff" autoSize="none" text="用户的名称"/>
+    <text id="n4" name="userId" xy="163,45" size="172,23" font="系统字体" fontSize="18" color="#ffff00" autoSize="none" text="id:10008"/>
+    <text id="n5" name="goldText" xy="435,25" size="130,33" font="系统字体" fontSize="25" color="#ffff00" autoSize="none" text="99999"/>
+    <text id="n6" name="goldaddText" xy="679,24" size="130,33" font="系统字体" fontSize="25" color="#ffff00" autoSize="none" text="99999"/>
+  </displayList>
+</component>

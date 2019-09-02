@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AddressConfigLoader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <addConfigs>
+        <Id>0</Id>
+        <host>139.224.17.230</host>
+        <port>8015</port>
+    </addConfigs>
+    <addConfigs>
+        <Id>0</Id>
+        <host>139.224.17.230</host>
+        <port>8017</port>
+    </addConfigs> 
+</AddressConfigLoader>

@@ -1,0 +1,52 @@
+{"frames": {
+
+"babg.png":
+{
+	"frame": {"x":2,"y":172,"w":640,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":50},
+	"sourceSize": {"w":640,"h":50}
+},
+"bns.png":
+{
+	"frame": {"x":2,"y":224,"w":639,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":639,"h":45},
+	"sourceSize": {"w":639,"h":45}
+},
+"btoff.png":
+{
+	"frame": {"x":783,"y":2,"w":135,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":40},
+	"sourceSize": {"w":135,"h":40}
+},
+"bton.png":
+{
+	"frame": {"x":646,"y":2,"w":135,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":40},
+	"sourceSize": {"w":135,"h":40}
+},
+"xtts.png":
+{
+	"frame": {"x":2,"y":2,"w":642,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":642,"h":168},
+	"sourceSize": {"w":642,"h":168}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "gameAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7d382c9cbaae62e9d1205b82acb65776:1/1$"
+}
+}

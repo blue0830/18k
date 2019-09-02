@@ -1,0 +1,11 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/peter-zhang/Desktop/work/外包项目/时时彩U3D客户端/LotterySvn/trunk/18k/Assets/Scripts/app/network/LoSocket.cs" line="450" column="1" />
+      <Breakpoint file="/Users/peter-zhang/Desktop/work/外包项目/时时彩U3D客户端/LotterySvn/trunk/18k/Assets/Scripts/app/view/MainView.cs" line="155" column="9" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
